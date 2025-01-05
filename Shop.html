@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop All </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"
+        integrity="sha512-v/wOVTkoU7mXEJC3hXnw9AA6v32qzpknvuUF6J2Lbkasxaxn2nYcl+HGB7fr/kChGfCqubVr1n2sq1UFu3Gh1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body id="top">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg ">
+
+            <a class="navbar-brand" href="./Home.html"><img src="./img/Beauty_Clinic1.png" width="200px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i></i></span>
+            </button>
+            <div class="collapse navbar-collapse mt-md-3 mt-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-3 text-center">
+                    <li class="nav-item mx-3 mx-md-0">
+                        <a class="nav-link nav_h" onclick="shopalls()" href="Shop.html"> SHOP ALL</a>
+                    </li>
+
+                    <li class="nav-item mx-4">
+                        <a class="nav-link nav_h" onclick="makups()" href="Makeup.html">MAKEUP</a>
+                    </li>
+
+
+                    <li class="nav-item mx-4">
+                        <a class="nav-link nav_h" onclick="servicess()" href="Services.html">SERVICES</a>
+                    </li>
+
+
+                    <li class="nav-item mx-4">
+                        <a class="nav-link  nav_h" onclick="abouts()" href="About.html">ABOUT US</a>
+                    </li>
+
+                    <li class="nav-item mx-4">
+                        <a class="nav-link  nav_h" onclick="contects()" href="Contect.html">CONTECT US</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex  mx-md-1">
+                    <input class="search col-md-12 col-8 p-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn1 col-md-6 col-4 p-2 p-md-2" type="submit">Submit</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <hr class="bodr">
+    </hr>
+    <!-- ------------------------------------------------------------------- -->
+
+    <div class="container-fluid shop_all">
+        <div class="shoptxt mt-5 text-center"><a href="./Home.html">Home </a>/ Shop</div>
+        <h1 class="shphead text-center mt-3">All Product</h1>
+
+        <div class="cart-div mt-5">
+            <div class="section mt-3 mt-md-3 pb-3">
+
+                <div class="half mt-md-0">
+                    <img src="./img/product-01.jpg" target="_blank" width="100%" onclick="image(this)">
+                    <h6 class="mt-3 " style="color: black;font-weight: 700; font-size: 18px;">Facial Cleanser Men &
+                        Women</h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$120.00
+                            </span>
+
+                            <span style="font-size: 1em;font-weight: 700; color: rgb(54, 53, 53);"> - <del> $ 150.00
+                                </del> </span>
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class="btn3 ms-3 col-md-5 p-2 col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0">
+                    <img src="./img/product-02.jpg" width="100%" onclick="image(this)">
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;">Bio-shroom Rejuvenating
+                        Serum.</h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$160.00
+                            </span>
+
+                            <span style="font-size: 1em;font-weight: 700;color: rgb(54, 53, 53);"> - <del> $ 200.00
+                                </del> </span>
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2 col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-03.jpg" width="100%" onclick="image(this)">
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;">Coffee Bean Caffeine Eye
+                        Cream. </h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$80.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700;color: rgb(54, 53, 53);"> - <del> $ 120.00
+                                </del> </span>
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+
+                        <button type="button" class=" ms-3 btn3 col-md-5  p-2 col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-04.jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;"> Aloe Vera Gel Face
+                        Moisturisers.</h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700;color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5  p-2 col-8">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section mt-3 mt-md-3 pb-3">
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-05.jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;">Body Glowing Skin Products.
+                    </h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700;color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2 col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-06.jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;"> Face Clean Product
+                        Dailyuse Women.</h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700;color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2 col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-07.jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;"> Hair Growth Oil For Stron
+                        Oil.</h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700;color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2 col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-08.jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;"> Natural Pure Baby Body
+                        Glowing.</h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700; color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2  col-8">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section mt-3 mt-md-3 pb-3">
+
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-09.jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;"> Hair Growth Oil For Men.
+                    </h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700; color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2  col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-10.jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;"> Girl's Bright Dark Circle
+                        Eye Serum.</h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700; color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2  col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/product-11.jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;"> Hand Wash Women & Men Use.
+                    </h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700; color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2  col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="half mt-md-0 mt-4">
+                    <img src="./img/offer-banner-2 (1).jpg" width="100%" onclick="image(this)">
+
+                    <h6 class="mt-3" style="color: black;font-weight: 700; font-size: 18px;"> Natural Pure Orenge Hair
+                        Oil.</h6>
+
+                    <div class="row">
+                        <p class="m-0">
+                            <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$99.00 </span>
+
+                            <span style="font-size: 1em;font-weight: 700; color: rgb(54, 53, 53);"> - <del> $ 130.00
+                                </del> </span>
+
+                        </p>
+                        <div class="fa_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button type="button" class=" ms-3 btn3 col-md-5 p-2  col-8">SHOP NOW</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- -----------------------------Cart Section  -------------------------------------- -->
+    <div class="card_section">
+        <div class="cart_div row mt-5 mb-5 m-3 ms-md-0 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-5  cart_img cr_img col-12 text-md-start text-center">
+
+                <img id="newImg" src="" width="100%" class="" height="550px">
+            </div>
+
+            <div class="cartText col-md-5 col-12 mt-3 mt-md-0 ">
+                <h5>Magic Huda Waterproof HD Makeup Kit Combo For Women &amp; Girls All Products In 1 Kit Set Of-16</h5>
+                <p class="m-0">
+                    <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$120.00 </span>
+
+                    <span style="font-size: 1em;font-weight: 700; color: rgb(54, 53, 53);"> - <del> $ 150.00
+                        </del> </span>
+
+                </p>
+                <div class="fa_star mb-2 mt-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <span class="fw-medium">Description:</span>
+                <p>Lightweight CC Cream - a moisturiser with a hint of foundation for a radiant & flawless complexion
+                    SPF30 PA++ for Sun protection against UVA & UVB rays Hint of foundation instantly conceals dark
+                    spots
+                    for an even toned look
+                    Invisible makeup like natural, dewy finish. Available in 6 shades.
+                    Dermatologically tested. PETA Certified. Clinically Proven</p>
+
+                <div class="col-md-12 ">
+                    <button type="button" class=" btn4 col-md-3 p-2 col-5 ms-3 ms-md-5" onclick="buynow()">Buy
+                        Now</button>
+                    <button type="button" onclick="addcart()" class=" btn5 col-md-3 p-2 col-5 ms-1 ms-md-3">Add To
+                        Cart</button>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+
+
+            <div class="container-fluid divcrd mt-5">
+                <div class="img-cart">
+                </div>
+            </div>
+
+        </div>
+        <!-- ------------------------------------------------------------------------- -->
+
+        <div class="cart_div2 row mt-5 mb-5 m-3 ms-md-0 ">
+
+            <div class="col-md-6  cart_img col-12 text-md-start text-center">
+
+                <img id="newImg2" src="" width="90%" height="470px" class="">
+            </div>
+            <div class="cartText col-md-6 col-12 mt-3 mt-md-0 ">
+                <h5>Natural Pure Baby Body Glowing.</h5>
+                <p class="m-0">
+                    <span style="font-size: 1em;font-weight: 700;line-height: 1.3; color: black;">$160.00 </span>
+
+                    <span style="font-size: 1em;font-weight: 700; color: rgb(54, 53, 53);"> - <del> $ 200.00
+                        </del> </span>
+
+                </p>
+                <div class="fa_star mb-2 mt-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <span class="fw-medium">Description:</span>
+                <p>Lightweight CC Cream - a moisturiser with a hint of foundation for a radiant & flawless complexion
+                    SPF30 PA++ for Sun protection against UVA & UVB rays Hint of foundation instantly conceals dark
+                    spots
+                    for an even toned look
+                    Invisible makeup like natural, dewy finish. Available in 6 shades.
+                    Dermatologically tested. PETA Certified. Clinically Proven</p>
+
+                <div class="col-md-12 ">
+                    <button type="button" class=" btn4 col-md-3 p-2 col-5 ms-3 ms-md-5" onclick="buynow()">Buy
+                        Now</button>
+                    <button type="button" onclick="addcart()" class=" btn5 col-md-3 p-2 col-5 ms-1 ms-md-3">Add To
+                        Cart</button>
+                </div>
+
+            </div>
+
+
+
+            <div class="container-fluid divcrd mt-5">
+                <div class="img-cart">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------------------------  Footer  ------------------------------ -->
+
+    <div class="back  mt-md-5 mt-5" style="background-color: #f6f3ed;">
+        <div class="container-fluid footer ">
+
+
+
+            <div class="row p-2 pb-md-5 pb-4">
+
+               
+
+
+
+
+                <div class="col-md-2 mt-3 mt-md-5  text-md-start col-6">
+                    <h4 class="mt-md-2">Useful links</h4>
+                    <ul class="navbar-nav   mt-0 mt-md-1">
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link nav_ho " href="Shop.html"> Shop All</a>
+                        </li>
+
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link nav_ho " href="Makeup.html">Makeup</a>
+                        </li>
+
+
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link nav_ho " href="Services.html">Services</a>
+                        </li>
+
+
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link  nav_ho " href="About.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link  nav_ho" href="Contect.html">Cotect Us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+
+
+                <div class="col-md-2 mt-3 mt-md-5  text-md-start col-6">
+                    <h4 class="mt-md-2 mx-md-4 text-md-start">Infomation</h4>
+                    <ul class="navbar-nav text-md-start  mt-0 mt-md-1">
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link nav_ho " href="#"> Start a Return</a>
+                        </li>
+
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link nav_ho" href="#">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link nav_ho " href="#">Shipping FAQ</a>
+                        </li>
+
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link nav_ho " href="#">Terms & Conditions</a>
+                        </li>
+
+
+                        <li class="nav-item mx-2 mx-md-4">
+                            <a class="nav-link  nav_ho " href="#">Privacy Policy</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-5 mt-3 mt-md-4 col-12 text-center ">
+                    <a href="Home.html"> <img src="./img/Beauty_Clinic1.png" width="270px"
+                            class="mt-md-3 mt-0 "></a>
+                            <p class="text-center pb-0 Peerly">Peerly is the best Spa therapy is the best way of Spa cases are some perfectly simple.</p>
+                            <div class="social-i  text-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                </div>
+
+
+                <div class="col-md-3 mt-md-5 mt-4 col-12  text-center">
+                    <h4 class="mt-md-2">Company </h4>
+                    <p style="color: rgb(148, 145, 145); font-weight: 700;" class="mb-0">Find a location nearest you.
+                        See</p>
+                    <span> <a href="#" class="our">Our Stores</a></span> <br>
+
+                    <div style="color: black; font-weight: 700; margin-top: 10px;">+391 (0)35 2568 4593</div>
+                    <div style="color: rgb(94, 94, 94);margin-top: 5px;">hello@domain.com</div>
+
+                    <img src="./img/pay.png" alt="" width="100%" class="mt-md-3 mt-3">
+
+                    
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <script src="./card.js"></script>
+</body>
+
+</html>
